@@ -1,0 +1,436 @@
+@import url(./webfonts/styles.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,900);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    box-shadow: 2px 19px 26px -10px rgba(0, 0, 0, 0.30);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppins, sans-serif;
+    line-height: 1.4;
+    font-weight: 500
+}
+
+#mt2 {
+    letter-spacing: 2px;
+    line-height: 60px;
+    font-weight: lighter;
+    font-size: 2em;
+    color: #6C63FF;
+}
+
+#mt3 {
+    font-weight: bold;
+    font-size: 1em;
+    color: #6C63FF;
+}
+
+#tracklist {
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+#tracklist li {
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+#tracklist li i {
+    color: #6C63FF;
+    background-color: rgb(56, 51, 51);
+}
+
+.boxi {
+    color: #6C63FF;
+}
+
+#boximg {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.mainbox {
+    box-shadow: 5px 5px 20px 5px rgba(129, 129, 129, 0.2);
+    height: 230px;
+    background-color: white;
+    margin-bottom: 20pX;
+    padding-top: 10px;
+}
+
+#recent {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#iconx {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #6C63FF;
+}
+
+#fmainbuynow {
+    background-image: url("./photos/not-ready-to-give-your-kid-a-smartphone\,-try-a-fliphone-instead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainBuyNow {
+    background-color: rgb(105, 97, 255, 0.9);
+    height: 150px;
+}
+
+.progress1 {
+    width: 100%;
+    height: 10px;
+    background-color: #6C63FF;
+    border-radius: 20px;
+}
+
+.progress2 {
+    width: 80%;
+    height: 10px;
+    background-color: #6C63FF;
+    border-radius: 20px;
+}
+
+.progress3 {
+    width: 65%;
+    height: 10px;
+    background-color: #6C63FF;
+    border-radius: 20px;
+}
+
+.progress4 {
+    width: 65%;
+    height: 10px;
+    background-color: #6C63FF;
+    border-radius: 20px;
+}
+
+.progress5 {
+    width: 30%;
+    height: 10px;
+    background-color: #6C63FF;
+    border-radius: 20px;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+}
+
+@media(min-width: 760px) {
+    #firstcontainerx {
+        background-color: black;
+        padding-top: 200px;
+        height: 650px;
+        color: #f5f5f5;
+    }
+    .box {
+        box-shadow: 5px 5px 20px 5px rgba(129, 129, 129, 0.2);
+        width: 250px;
+        height: 150px;
+        margin-right: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+        background-color: #f5f5f5;
+    }
+    #boxcontainer {
+        padding-left: 150px;
+    }
+    #label {
+        font-weight: bolder;
+    }
+    #whybestimg {
+        border-radius: 50%;
+        background-color: whitesmoke;
+        padding: 10px;
+        width: 100px;
+        margin: auto;
+    }
+    #whybest {
+        height: 520px;
+        background-color: #6C63FF;
+        color: #f5f5f5;
+        padding: 80px 20px 0;
+    }
+    .step {
+        box-shadow: 5px 5px 5px 5px rgba(66, 48, 48, 0.1);
+        height: 310px;
+        margin: 30px;
+        background-color: #f5f5f5;
+    }
+    .support {
+        width: 80px;
+        border-radius: 50%;
+        padding: 10px;
+        background-color: #f5f5f5;
+        box-shadow: 5px 5px 5px 5px rgba(66, 48, 48, 0.1);
+    }
+    .support i {
+        color: #6C63FF;
+        margin-left: 15px;
+    }
+    #secondtofooter {
+        margin-top: 210px;
+        margin-bottom: 120px;
+    }
+    #secondtofooter .brandy {
+        font-weight: bolder;
+        font-size: 3em;
+    }
+    footer {
+        height: 220px;
+        border-top: 6px solid #6C63FF;
+        background-color: rgb(5, 22, 41);
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+    .tbtn {
+        display: none;
+    }
+    .progres1 {
+        width: 240px;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres2 {
+        width: 220px;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres3 {
+        width: 205px;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres4 {
+        width: 215px;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres5 {
+        width: 170px;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    #boxx {
+        box-shadow: 5px 5px 20px 5px rgba(129, 129, 129, 0.2);
+        height: 490px;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 760px) {
+    #firstcontainerx {
+        color: #f5f5f5;
+        background-color: black;
+        padding-top: 200px;
+        height: 980px;
+    }
+    #btncontainer {
+        display: none;
+    }
+    .box {
+        box-shadow: 5px 5px 5px 5px rgba(105, 105, 105, 0.1);
+        width: 110px;
+        height: 120px;
+        margin: 12px;
+        background-color: #f5f5f5;
+    }
+    #whybest {
+        height: 750px;
+        background-color: #6C63FF;
+        color: #f5f5f5;
+        padding-top: 30px;
+    }
+    #whybestimg {
+        border-radius: 50%;
+        background-color: whitesmoke;
+        padding: 10px;
+        width: 150px;
+        margin: auto;
+    }
+    #whybestcon {
+        display: flex;
+        margin-bottom: 2px;
+    }
+    .step {
+        box-shadow: 5px 5px 5px 5px rgba(105, 105, 105, 0.1);
+        height: 300px;
+        margin: 12px;
+        background-color: #f5f5f5;
+    }
+    .step img {
+        height: 210px;
+    }
+    .support {
+        width: 50px;
+        border-radius: 40%;
+        padding: 20px;
+        background-color: #f5f5f5;
+        box-shadow: 5px 5px 5px 5px rgba(66, 48, 48, 0.1);
+    }
+    .support i {
+        color: #6C63FF;
+    }
+    .choose {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    #secondtofooter {
+        margin-top: 110px;
+        margin-bottom: 120px;
+    }
+    #secondtofooter .brandy {
+        font-weight: bolder;
+        font-size: 2em;
+    }
+    footer {
+        height: 310px;
+        border-top: 6px solid #6C63FF;
+        background-color: rgb(5, 22, 41);
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+    .progres1 {
+        width: 180px;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres2 {
+        width: 160px;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres3 {
+        width: 145px;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres4 {
+        width: 155px;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres5 {
+        width: 120px;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    #boxx {
+        box-shadow: 5px 5px 20px 5px rgba(129, 129, 129, 0.2);
+        height: 510px;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 320px) {
+    #whybest {
+        height: 900px;
+        background-color: #6C63FF;
+        color: #f5f5f5;
+        padding-top: 30px;
+    }
+    #firstcontainerx {
+        color: #f5f5f5;
+        background-color: black;
+        padding-top: 130px;
+        height: 980px;
+    }
+    .support {
+        width: 50px;
+        border-radius: 40%;
+        padding: 20px;
+        background-color: #f5f5f5;
+        box-shadow: 5px 5px 5px 5px rgba(66, 48, 48, 0.1);
+    }
+    .support i {
+        color: #6C63FF;
+    }
+    .choose {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    #secondtofooter {
+        margin-top: 110px;
+        margin-bottom: 120px;
+    }
+    #secondtofooter .brandy {
+        font-weight: bolder;
+        font-size: 2em;
+    }
+    footer {
+        height: 310px;
+        border-top: 6px solid #6C63FF;
+        background-color: rgb(5, 22, 41);
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+    .progres1 {
+        width: 400%;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres2 {
+        width: 190%;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres3 {
+        width: 150%;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres4 {
+        width: 170%;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    .progres5 {
+        width: 70%;
+        height: 10px;
+        background-color: #6C63FF;
+        border-radius: 20px;
+    }
+    #boxx {
+        box-shadow: 5px 5px 20px 5px rgba(129, 129, 129, 0.2);
+        height: 510px;
+        background-color: white;
+        margin-bottom: 10px;
+    }
+}
